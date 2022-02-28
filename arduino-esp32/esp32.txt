@@ -6,8 +6,8 @@
 #include "SoftwareSerial.h"
 #include <ArduinoJson.h>
 
-const char* wlan_ssid             = "NetMASTER Uydunet-5F2C";
-const char* wlan_password         = "rJBct?S%Nd1?U+_n";
+const char* wlan_ssid             = "ssid";
+const char* wlan_password         = "passwd";
 const char* ws_host               = "192.168.0.17";
 const int   ws_port               = 8080;
 
