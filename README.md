@@ -3,7 +3,7 @@ Spring Boot - ReactJS - Esp32 Socket IOT Project
 
 ### Technical Details
 
- I wrote a web socket using java spring boot (remaining writable size using javascript).
+ I wrote a web socket using java spring boot (it depends to you - you can write with js or python).
  ####
  It is connecting to this websocket using one of the esp32's ready socket libraries. Esp32's role is; receiving data from the socket and transmitting commands to the arduino uno who is is connected to the rx tx. And in addition, a data from arduino uno transmits it to our socket server.
  ####
@@ -15,4 +15,5 @@ Video: [https://www.youtube.com/watch?v=s4T_D970Yvs](https://www.youtube.com/wat
 
 Keywords:
 esp32 socket client
+####
 socket web server 
